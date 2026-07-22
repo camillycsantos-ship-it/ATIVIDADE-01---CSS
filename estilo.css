@@ -1,0 +1,61 @@
+h1 {
+    color:darkorange;
+    text-align: center;
+    font-size: 55px;
+}
+
+h2 {
+    color:chocolate;
+    text-align: center;
+    font-size: 35px;
+}
+
+p {
+    color:black;
+    text-align:left;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-break: 5px;
+}
+
+strong{
+    color:chocolate;
+    text-decoration:underline;
+}
+
+em {
+    color:indianred;
+    text-align: left;
+    text-decoration:underline;
+}
+
+body {
+    background-color:bisque;
+
+}
+@keyframes myAnimation {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+span {
+    color:black;
+    text-align:left;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 100px;
+    height: 150px;
+    background-color:darkgoldenrod;
+    animation-name: myAnimation;
+    animation-duration: 8s;
+
+}
+
+sp {
+    
+    width: 100px;
+    height: 100px;
+    background-color:darkgoldenrod;
+    animation-name: myAnimation;
+    animation-duration: 8s;
+
+}
