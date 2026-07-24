@@ -8,7 +8,7 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: #333333;
+  background-color:chocolate;
   display: flex;
 }
 
@@ -20,14 +20,23 @@ ul li a {
 }
 
 ul li a:hover {
-  background-color: #111111;
+  background-color:burlywood;
 }
-
 
 h2 {
     color:chocolate;
     text-align: center;
     font-size: 35px;
+}
+
+h3 {
+    color: chocolate;
+    font-size: 25px;
+}
+
+h4 {
+    color:indianred;
+    font-size:22px
 }
 
 p {
@@ -55,7 +64,7 @@ body {
 }
 @keyframes myAnimation {
     from {background-color: red;}
-    to {background-color: yellow;}
+    to {background-color:bisque}
 }
 span {
     color:black;
@@ -64,7 +73,7 @@ span {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     width: 100px;
     height: 150px;
-    background-color:darkgoldenrod;
+    background-color:blanchedalmond;
     animation-name: myAnimation;
     animation-duration: 8s;
 
@@ -74,8 +83,22 @@ sp {
     
     width: 100px;
     height: 100px;
-    background-color:darkgoldenrod;
+    background-color:blanchedalmond;
     animation-name: myAnimation;
     animation-duration: 8s;
 
+}
+
+ol {
+    color: black;
+    font-size: 20px;
+}
+
+small {
+    color: indianred;
+    font-size: 18px;
+}
+
+b {
+    font-size: 18px;
 }
